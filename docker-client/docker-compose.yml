@@ -8,4 +8,8 @@ services:
      - LANPROXY_KEY=input_your_key
      # 服务器的ip，支持域名
      - LANPROXY_HOST=input_your_host
+     # 服务器端口
+     - LANPROXY_PORT=input_your_port
+     #是否通过ssl连接
+     - LANPROXY_SSL=input_your_ssl_enable
     restart: always
