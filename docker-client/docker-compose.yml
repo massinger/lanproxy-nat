@@ -11,5 +11,5 @@ services:
      # 服务器端口
      - LANPROXY_PORT=input_your_port
      #是否通过ssl连接
-     - LANPROXY_SSL=input_your_ssl_enable
+     - LANPROXY_SSL=input_your_ssl
     restart: always
