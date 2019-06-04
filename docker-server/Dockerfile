@@ -9,7 +9,7 @@ RUN yum install git -y
 
 WORKDIR /
 
-RUN git clone https://github.com/frank-lam/lanproxy-server.git
+RUN git clone https://github.com/massinger/lanproxy-server.git
 
 # copy the code
 # COPY lanproxy-client /lanproxy-client
